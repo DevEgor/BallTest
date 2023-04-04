@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fdefe6b7fb335ebfbd0596bcf3d0ef0, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  LevelGeneratorSettings:
+    Platform: {fileID: 80079936689021601, guid: f2dbb8daa0329b2b6a165a31c1194a8b, type: 3}
+    Crystal: {fileID: 3024776902851258447, guid: 3804825c5818e0728a4cbbc0b23a2923, type: 3}
+    Player: {fileID: 6387448673066575597, guid: 97e02edba6656fe8483637be2d5d6343, type: 3}
+    StartGeneratePathLength: 5
+    StartPlaceSize: {x: 3, y: 3}
+    StartGeneratePlacePos: {x: 0, y: 0, z: 0}
+    StartGeneratePathPos: {x: 1, y: 0, z: 3}
+    PlayerStartPos: {x: 1, y: 0, z: 2}
+    AddPlatformOffset: 10
+    RemovePlatformOffset: 2
+  CrystalGeneratorSettings:
+    SelectedGenerator: 0
+    PossibleGenerators:
+    - {fileID: 11400000, guid: 9f43d9ecda846175bbfd6153be706681, type: 2}
+    - {fileID: 11400000, guid: 2d2fbae5da43ad5e6b94ed04c5b5b65a, type: 2}
+  GeneratePlatformSettings:
+    SelectedGenerator: 0
+    PossibleGenerators:
+    - {fileID: 11400000, guid: 86d69b2702fdf6044a28fb396d679c14, type: 2}
+    - {fileID: 11400000, guid: f3e2c2d3c91f0159ba34a79f137a8bf5, type: 2}
+  PlayerMoveSettings:
+    Speed: 3
